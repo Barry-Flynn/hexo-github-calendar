@@ -32,7 +32,9 @@ githubcalendar:
   color: "['#ebedf0', '#a2f7af', '#6ce480', '#54ad63', '#469252', '#31753c', '#1f5f2a', '#13531f', '#084111', '#032b09', '#000000']"
   # 推荐填写你自建的API接口，方法详见本插件配套Python后端 https://github.com/Barry-Flynn/python_github_calendar_api
   api: https://github-calendar-api.meta-code.top/api
-  calendar_js: https://cdn.jsdelivr.net/gh/barry-flynn/hexo-github-calendar/hexo_githubcalendar.js
+  # 推荐下载后使用本地文件
+  # calendar_js: https://cdn.jsdelivr.net/gh/barry-flynn/hexo-github-calendar/hexo_githubcalendar.js # 在线文件，容易加载失败
+  calendar_js: /CDN/hexo_githubcalendar.js # 本地文件，请下载到主题文件夹的source目录下
   plus_style: ""
 ```
 

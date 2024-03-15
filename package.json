@@ -1,7 +1,7 @@
 {
   "name": "@barry-flynn/hexo-github-calendar",
   "author": "Barry-Flynn",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Plugin for displaying GitHub contribution heatmaps in Hexo",
   "keywords": [
     "hexo",
