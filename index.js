@@ -1,7 +1,7 @@
 /**
  * Hexo Github Canlendar
- * Ice Kano
- * Modify: Lete乐特
+ * Author: Barry-Flynn
+ * Link：https://github.com/Barry-Flynn/hexo-github-calendar
  */
 
 'use strict'
@@ -54,13 +54,13 @@ hexo.extend.filter.register('after_generate',function(){
   <script data-pjax src="${calendar_js}"></script>
   <script data-pjax>
         function GithubCalendarConfig(){
-            var git_githubapiurl ="${github_api}?${github_user}";
+            var git_githubapiurl ="${github_api}?user=${github_user}";
             var git_color =${github_color};
             var git_user ="${github_user}";
             var parent_div_git = ${get_layout};
             var git_div_html = '${githubcalendar_html}';
             if(parent_div_git && location.pathname =='${calendar_enable_page}'){
-                console.log('已挂载github calendar')
+                console.log("\n%c hexo-github-calendar %c https://github.com/Barry-Flynn/hexo-github-calendar \n", "color: #ffffff; background: #005aff; padding:5px 0;", "background: #b9ddff; padding:5px 0;");
                 // parent_div_git.innerHTML=git_div_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
                 parent_div_git.insertAdjacentHTML("afterbegin",git_div_html) // 有报错，但不影响使用(支持pjax跳转)
             };

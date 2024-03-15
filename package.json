@@ -1,30 +1,31 @@
 {
-  "name": "hexo-githubcalendar",
-  "version": "1.2.3",
-  "description": "A Plus_in for hexo to show github calendar.",
+  "name": "@barry-flynn/hexo-github-calendar",
+  "author": "Barry-Flynn",
+  "version": "1.0.1",
+  "description": "Plugin for displaying GitHub contribution heatmaps in Hexo",
+  "keywords": [
+    "hexo",
+    "plugin",
+    "github"
+  ],
+  "license": "MIT",
   "main": "index.js",
+  "homepage": "https://github.com/Barry-Flynn/hexo-github-calendar",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Barry-Flynn/hexo-github-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Barry-Flynn/hexo-github-calendar/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://blog.meta-code.top/Reward-list/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ice Kano",
-  "contributors": [
-    "Lete乐特"
-  ],
-  "keywords": [
-    "hexo",
-    "github",
-    "gitee",
-    "plugin"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Zfour/hexo-github-calendar.git"
-  },
   "devDependencies": {
-    "hexo": "^3.2.0"
-  },
-  "__npminstall_done": "Thu Mar 11 2021 19:29:46 GMT+0800 (中国标准时间)",
-  "_from": "hexo-githubcalendar@1.2.2",
-  "_resolved": "https://registry.npm.taobao.org/hexo-githubcalendar/download/hexo-githubcalendar-1.2.2.tgz"
+    "hexo": "^5.4.0"
+  }
 }
