@@ -4,6 +4,8 @@
 
 ![hexo-github-calendar](hexo-github-calendar.png)
 
+如果帮到你了，请给个免费的 star 鼓励支持一下我吧！
+
 ## 安装依赖
 
 ```sh
